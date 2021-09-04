@@ -1,0 +1,94 @@
+@media screen and (max-width:812px){
+    .btnhead>ul>li{
+        writing-mode: vertical-lr;
+            font-size: 17px;
+        padding: 0;
+        line-height: 65px;
+    }
+    .animename{
+        top: 17%;
+    }
+    #bio{
+        bottom: 31%;
+    }
+    #socialmedia{
+        bottom: 20%;
+    }
+    #about>div:nth-of-type(2){
+        width:100%;
+    }
+    #about>div:nth-of-type(2)>div{
+        width:90%;
+     left: 5%;
+    }
+    #about > div:nth-of-type(2) > div > p{
+        font-size: 22px;
+        line-height: 30px;
+    }
+    #about>div:nth-of-type(1){
+        display: none;
+    }
+    #imgmina{
+        box-shadow: 0 0 8px 1px #0d082c45;
+        display: block;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+        margin:8px calc(50% - 90px);
+}
+    
+    #skill>div{
+        width: 100% !important;
+        height: 50%;
+    }
+    .demo>canvas{
+        width: 80px !important;
+        height: 80px !important;
+    }
+    .demo>span{
+     
+        font-size: 14px;
+    }
+    #resume>div{
+        width: 50%;
+        height: 20%;
+        left: 10%;
+    }
+    #resume>div:nth-of-type(1){
+        top: 15%;
+        left: 6%;
+    }
+    #resume>div:nth-of-type(2){
+        top: 30%;
+        left: 46%;
+    }
+    #resume>div:nth-of-type(3){
+        top: 45%;
+        left: 6%;
+    }
+    #resume>div:nth-of-type(4){
+        top: 60%;
+        left: 46%;
+    }
+    #resume>div:nth-of-type(5){
+        top: 75%;
+        left: 6%;
+        
+    }
+    #resume>div:nth-of-type(6){
+        top: 90%;
+        display: none;
+    }
+    #resume>div>img{
+/*       height: 100%;*/
+    }
+   
+}
+@media screen and (min-width:813px) and (max-width:992px){
+  
+    
+}
+@media screen and (min-width:993px){
+    
+}
